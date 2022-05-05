@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+#container {
+    display: flex;
+    flex-flow: row;
+}
+
+.left {
+    width: 20%;
+    background-color: #4E944F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2rem;
+}
+
+.right {
+    background-color: white;
+}
+
+.menu {
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav {
+    position: fixed;
+    top: 1.5rem;
+}
+
+nav>a {
+    font-weight: 500;
+    margin-bottom: 5.3rem;
+    font-size: 0.8rem;
+    transform: rotate(-90deg);
+    color: white;
+}
+
+.home {
+    font-size: 2rem;
+    color: white;
+    position: fixed;
+    bottom: 1rem;
+}
+
+.img {
+    width: 70%;
+}
+
+.right {
+    display: flex;
+    flex-flow: column;
+}
+
+.right>* {
+    margin: 0;
+}
+
+.greyTxt {
+    color: grey;
+    margin-bottom: 0.5rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+}
+
+.price {
+    margin-bottom: 0.5rem;
+}
+
+.search {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
